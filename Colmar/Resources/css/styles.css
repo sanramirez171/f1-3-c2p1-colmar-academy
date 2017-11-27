@@ -1,0 +1,557 @@
+body{
+  font-family: calibri;
+  color:gray;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 4rem;
+  display:flex;
+  justify-content: space-between;
+}
+
+.banner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  font-size: 2rem;
+}
+
+.banner p{
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.banner span{
+font-weight: normal;
+}
+
+.banner img {
+  height:2rem;
+}
+
+.nav li{
+  list-style:none;
+  margin-right: 1rem;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 1rem 0 0;
+  flex-direction: row;
+}
+
+#logo2, #logo3, #logo4{
+  display:none;
+}
+
+.pri{
+  display:flex;
+  background-color:#C6C3BF;
+}
+
+.priima {
+   width: 60%;
+   padding: 32px 24px 32px 24px;
+}
+
+.priima img{
+  width:100%;
+}
+
+.pritext{
+  width:35%;
+  margin-top: 12rem;
+  margin-right: 3rem;
+  margin-left: 24px;
+}
+
+#titulo1{
+  width:100%;
+  font-size: 60px;
+  color:#47574D;
+  font-weight: bold;
+}
+
+#titulo2{
+  width:100%;
+  font-size:30px;
+  color:#47574D;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+#boton{
+  display: block;
+  width: 350px;
+  padding: 8px;
+  background-color: #47574D;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: MintCream;
+  align-content: center;
+}
+
+.segunda{
+  display:flex;
+}
+
+.seg{
+width:60%;
+padding: 32px 24px 0px 24px;
+}
+
+.segima img{
+  width:100%;
+  margin-bottom:32px;
+}
+
+#titulo3{
+  width:100%;
+  font-size: 50px;
+  color:#47574D;
+  font-weight: bold;
+  margin-top:0px;
+  margin-bottom:24px;
+}
+
+#titulo4{
+  width:100%;
+  font-size:25px;
+  color:#47574D;
+  margin-top:0px;
+  margin-bottom: 40px;
+}
+
+#titulo5{
+  width:100%;
+  font-size:25px;
+  color:#47574D;
+}
+
+.segunda{
+  margin-right: 0px;
+}
+
+.segbarra{
+  display:flex;
+  flex-direction: column;
+  width:40%;
+}
+
+.unito , .dosito, .tresito{
+  display:flex;
+  width:100%;
+}
+
+.uno , .dos , .tres{
+  width:38%;
+}
+
+.uno1 ,.dos2 , .tres3{
+  width:65%;
+}
+
+.uno img , .dos img , .tres img{
+  width: 100%;
+  height:auto;
+  margin-left:16px;
+}
+
+.uno1 p , .dos2 p, .tres3 p{
+  width: 100%;
+  height:auto;
+}
+
+.unito{
+  margin-top:32px;
+}
+
+.dosito{
+  margin-top:40px;
+  margin-bottom:28px;
+}
+
+.tresito{
+  background-color:#C6C3BF;
+  margin: 16px 0 16px 0;
+}
+
+.tres img{
+  margin: 16px 0 16px 16px;
+}
+
+
+#encab{
+    font-size:30px;
+    color:#47574D;
+    font-weight: bold;
+    margin-left:28px;
+    margin-bottom:0px;
+}
+
+#contenido{
+  font-size:20px;
+  color:#47574D;
+  margin-left:27px;
+}
+
+#readmore{
+  font-size:20px;
+  color:#2E9AFE;
+  margin-left:28px;
+}
+
+.general{
+  background-color:#C6C3BF;
+  margin-top:32px;
+}
+
+.ter p{
+  text-align: center;
+  font-size:50px;
+  color:#47574D;
+  font-weight: bold;
+  padding-top:32px;
+  margin:0;
+}
+
+.seccion{
+  display:flex;
+  padding: 32px 72px 0 72px;
+  flex-wrap: wrap;
+}
+
+.seccion p{
+ text-align: center;
+ margin-top: 10px;
+}
+
+.fotico{
+  width:31%;
+  height:100%;
+  margin-bottom:32px;
+  background-color: white;
+}
+
+.fotico img{
+  width:100%;
+}
+
+
+.fotico:nth-child(3n+2){
+  margin:0 32px 0 32px;
+}
+
+
+#subtitulo{
+      font-size:30px;
+      font-weight: bold;
+      margin:16px 16px 8px 16px;
+      text-align:left;
+}
+
+#courses{
+  font-size:20px;
+  color:#47574D;
+  text-align:left;
+  margin:0 16px 8px 16px;
+}
+
+#courses2{
+  font-size:20px;
+  color:#47574D;
+  text-align:left;
+  margin:0 16px 24px 16px;
+}
+
+
+#titulou{
+  text-align: center;
+  font-size:50px;
+  color:#47574D;
+  font-weight: bold;
+  padding:32px 0 32px 0;
+  background-color: #F2F2F2;
+  margin:0;
+}
+
+.cuatro{
+background-color: #F2F2F2;
+display:flex;
+}
+
+.cuavida{
+  width:60%;
+  height:auto;
+  padding: 0px 24px 0px 24px;
+}
+
+.cuavid video{
+  width:100%;
+}
+
+.cua{
+  display:flex;
+  flex-direction: column;
+  padding-top:0;
+  width:40%;
+}
+
+.cua1{
+  display:flex;
+  width:100%;
+  background-color:#C6C3BF;
+}
+
+.cua11 , .cua21{
+  width:38%;
+  margin-left:16px;
+}
+
+.cua12 , .cua22{
+  width:65%;
+}
+
+.cua11 img,.cua21 img{
+  width:100%;
+  height:auto;
+}
+
+.cua11 img{
+  margin: 16px 0 16px 0;
+}
+
+.cua12 p, .cua22 p{
+  width: 100%;
+  height:auto;
+}
+
+.cua2{
+  display:flex;
+  width:100%;
+  margin-top:16px;
+  }
+
+
+#thesistitu{
+      font-size:30px;
+      font-weight: bold;
+      margin:16px 16px 8px 16px;
+}
+
+#thesiscont{
+  font-size:20px;
+  color:#47574D;
+  text-align:left;
+  margin:16px 16px 8px 16px;
+}
+
+#bajovideo{
+  font-size:30px;
+  font-weight: bold;
+  margin:24px 24px 8px 0px;
+
+}
+
+#bajovideo2{
+  font-size:20px;
+  color:#47574D;
+  margin:0 24px 32px 0px;
+}
+
+
+footer {
+  height: 4rem;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer1{
+  margin-left:24px;
+}
+
+.footer2 li{
+  list-style:none;
+  margin-right: 1rem;
+}
+
+.footer2 ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+
+  Header {
+    height:150px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left:150px;
+  }
+
+  .banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    font-size: 2rem;
+  }
+
+  .nav{
+    display: flex;
+  }
+
+  #logo2, #logo3, #logo4, .banner img{
+    display: block;
+    height:100%;
+    height: 80px;
+  }
+
+
+  .pri{
+    display:block;
+    background-color:#C6C3BF;
+  }
+
+  .priima {
+     width: 100%;
+     padding: 32px 24px 32px 24px;
+  }
+
+  .priima img{
+    width:95%;
+  }
+
+  .pritext{
+    width:100%;
+    padding:0px 0px 32px 0px;
+    margin: 0px 24px 0px 32px;
+  }
+
+#boton{
+  width:92%;
+  margin-bottom:32px;
+}
+
+#titulo1{
+  margin:0px;
+}
+#titulo2{
+  margin:32px 0px 24px 0px;
+}
+
+
+
+  .seg{
+   display:none;
+  }
+
+  .segbarra{
+      display:flex;
+      flex-direction: column;
+      width:100%;
+    }
+
+      .unito , .dosito, .tresito{
+        display:block;
+         overflow:hidden;
+      }
+
+      .unito img, .dosito img, .tresito img{
+        max-width:100%;
+        height:auto;
+        display:block;
+
+      }
+
+      .uno , .dos , .tres{
+        width:100%;
+      }
+
+      .uno1 ,.dos2 , .tres3{
+        width:100%;
+      }
+
+      .ter p , .seccion, #titulou, .cuatro{
+        background-color: white;
+    }
+
+    .ter p {
+      padding: 32px 0px 16px 0px;
+  }
+
+    #courses , #courses2 ,.fotico img, .cua , #bajovideo , #bajovideo2,
+    #thesistitu , #thesiscont, .banner p, .banner span .nav li, .nav ul{
+      display:none;
+    }
+
+    .seccion{
+      display:block;
+      width:100%;
+      margin:0;
+      padding:0px;
+    }
+    .fotico:nth-child(3n+2){
+      margin: 16px 0px 24px 16px;
+      margin-left:0px;
+      padding-left:0px;
+    }
+
+   #subtitulo {
+     font-size: 50px;
+     background-color: #C6C3BF;
+     color:black;
+     width:96%;
+     height:auto;
+     margin:0px 24px 0px 24px;
+     padding:16px 0px 24px 16px ;
+   }
+   .fotico{
+     width:100%;
+   }
+
+   .cuatro{
+   display:block;
+   }
+
+   .cuavida{
+     width:100%;
+     height:auto;
+     padding: 0px 24px 0px 24px;
+   }
+
+   .cuavid video{
+     width:95%;
+   }
+
+   .cua{
+     display:flex;
+     flex-direction: column;
+     padding-top:0;
+     width:0%;
+   }
+
+
+
+
+
+  }
